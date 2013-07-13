@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/retired"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthback"
+    android:scrollbarStyle="insideOverlay" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        
+        tools:context=".HealthRetired" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch and Dinner:
+    "
+            android:textColor="@color/mainheading"
+            android:textColorHint="@color/mainheading"
+            android:textColorLink="@color/mainheading" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="20dp"
+            android:text="Rewarding Yourself: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mainheading" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="14dp"
+            android:text="Do not to forget to reward yourself. Keeping a healthy lifestyle is not only about healthy eating and exercising. Relaxing and rewarding is important for the mind and body as well. "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:text="Replace half a serving of your regular lunch with a light soup or a salad. Start your dinner with a soup or a salad also. This will help you cut your portion size. Use lean white meats like chicken and turkey for your protein source majority of the time. "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:text="Exercising:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mainheading" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="15dp"
+            android:text="Walk as much as you can every day. Park your car at the far end of the parking lot and take the stairs instead of the elevator. Exercise three to five times a week for 30 minutes or more at a time. Choose an activity that you will enjoy. "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+</ScrollView>

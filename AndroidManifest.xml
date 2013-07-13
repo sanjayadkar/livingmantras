@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androworriors.livingmantra"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lmlogo"
+        android:label="@string/Living_Mantra"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.androworriors.livingmantra.Start"
+            android:label="@string/Living_Mantra" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.Your_Choice"
+            android:label="@string/title_activity_settings" >
+            <intent-filter>
+                <action android:name="com.androworriors.livingmantra1.YOUR_CHOICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.Student"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.Businessman"
+            android:label="@string/title_activity_businessman" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.RetiredPerson"
+            android:label="@string/title_activity_retired_person" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.SickPerson"
+            android:label="@string/title_activity_sick_person" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.BusinessMan"
+            android:label="@string/title_activity_business_man" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.YogaStudent"
+            android:label="@string/title_activity_yoga" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.HealthStudent"
+            android:label="@string/title_activity_health" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.MeditationStudent"
+            android:label="@string/title_activity_meditation" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.RelaxationStudent"
+            android:label="@string/title_activity_relaxation" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.WebSearch"
+            android:label="@string/title_activity_web_search" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.Query"
+            android:label="@string/title_activity_query" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.YogaBusinessman"
+            android:label="@string/title_activity_yoga_businessman" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.YogaSick"
+            android:label="@string/title_activity_yoga_sick" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.YogaRetired"
+            android:label="@string/title_activity_yoga_retired" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.HealthBusinessman"
+            android:label="@string/title_activity_health_businessman" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.HealthSick"
+            android:label="@string/title_activity_health_sick" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.HealthRetired"
+            android:label="@string/title_activity_health_retired" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.MeditationBusinessman"
+            android:label="@string/title_activity_meditation_businessman" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.MeditationSick"
+            android:label="@string/title_activity_meditation_sick" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.MeditationRetired"
+            android:label="@string/title_activity_meditation_retired" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.RelaxationBusinessman"
+            android:label="@string/title_activity_relaxation_businessman" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.RelaxationSick"
+            android:label="@string/title_activity_relaxation_sick" >
+        </activity>
+        <activity
+            android:name="com.androworriors.livingmantra.RelaxationRetired"
+            android:label="@string/title_activity_relaxation_retired" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/meditationstudent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideOverlay" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/meditationback"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        tools:context=".MeditationStudent" >
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.	Focus on your breathing:One of the most challenging aspects of meditation is maintaining the proper state of mind, which requires focusing on nothing but the present moment.
+            
+    "
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:text="3.	Don’t give up!: Meditation may be frustrating at first and it is easy to give up when you feel as though you are not experiencing the benefits or that it is taking too long to learn."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView1"
+            android:layout_alignTop="@+id/TextView1"
+            android:layout_marginTop="114dp"
+            android:text="2.	Let thoughts come to mind—then let them go:If you find it difficult to concentrate on your breathing and realize you are thinking about stressful or unrelated things, don’t get upset with yourself or quit! Just recognize that you are thinking about unrelated matters, then let them go, and bring yourself back to the present moment."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</ScrollView>

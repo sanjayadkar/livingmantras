@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:background="@drawable/mainback"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".Your_Choice" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Student" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/button1"
+            android:layout_marginTop="14dp"
+            android:text="Business Man" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="22dp"
+            android:text="Retired Person" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignRight="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="20dp"
+            android:text="Sick Person" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/facebooklogo" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignRight="@+id/button4"
+            android:layout_marginRight="22dp"
+            android:clickable="true"
+            android:onClick="@string/title_activity_query"
+            android:text="Query"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ituneslogo" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="28dp"
+            android:clickable="true"
+            android:onClick="@string/title_activity_web_search"
+            android:text="Web Search"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColorLink="@color/webcolor" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_toLeftOf="@+id/textView2"
+            android:background="@drawable/twitterlogo" />
+
+    </RelativeLayout>
+
+</ScrollView>

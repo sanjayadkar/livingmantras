@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="lightcolor">#f0bbf4</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="startliv">#a62cd3</color>
+    <color name="startman">#5539c6</color>
+    <color name="querycolor">#9c6377</color>
+    <color name="webcolor">#4117e8</color>
+    <color name="selectcolor">#0066cc</color>
+    <color name="mainheading">#386d57</color>
+    <color name="subheading">#2f5e77</color>
+    
+</resources>

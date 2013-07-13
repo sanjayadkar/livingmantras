@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meditationback"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="insideOverlay"
+    tools:context=".MeditationBusinessman" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sitting:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/lightcolor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:text="When you can take the time for deep renewal.
+This basic but powerful practice is for anyone who can find twenty minutes of quiet time each day. Sit comfortably with your eyes closed and your spine straight. 
+"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breathing: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/lightcolor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:text="When you are tense, confused , or feel physically stressed. 
+Breathing can be done anywhere, anytime, as needed. In three or four minutes, you can take a series of authentically revitalizing, yogic breaths. Ujjayi breathing, which is at the very heart of a yoga practice, settles the mind. 
+"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mindfulness: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/lightcolor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:text="When you are too busy to pause. Getting ready for work, washing the dishes, talking to your child and preparing meals may leave you without the time to meditate – or these activities can become the heart of your practice. "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Child’s Pose: "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/lightcolor"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When you are exhausted, overwhelmed and need self-care.
+As yogis, you know the beauty of balasana, or Child’s Pose. This forward bend is a rest pose that soothes the nervous system and turns the mind inward. 
+"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</ScrollView>

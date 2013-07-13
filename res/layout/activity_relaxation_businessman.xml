@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/relax"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbarStyle="insideOverlay"
+    tools:context=".RelaxationBusinessman" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:text="1. &apos;The body has an inborn response that&apos;s opposite to the &apos;flight-or-fight response&apos; — it&apos;s the relaxation response,&apos; There are scores of techniques that will bring forth this relaxation response.&apos; Finding one that works best for you can be part of the fun."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="The following 10 relaxation activities allow busy people to undo the trap of their own hectic "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:text="2. &apos;Repetition, which can include word, sound, prayer, or movement, and the disregard of other thoughts, breaks the train of everyday thinking,&apos;"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="3. To get into the relaxation habit, practice a repetitive exercise for 10 to 20 minutes, once or twice per day. "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:text="4. Keep in mind that activity can bring stress relief. For example, tai chi combines the therapeutic results of meditation and deep breathing along with slow yet constant motion"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="5. Be sure to choose the relaxation technique that seems most appealing and suits your comfort level"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:text="6. Remember that relaxation doesn’t have to be so serious. Laughter is a great stress reliever, so try watching a favorite sit-com or a classic screwball comedy movie."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="7. Many relaxation techniques can be performed at specific moments when you need to de-stress the most. "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="8. If you tend to work through your lunch hour, begin using part of it for a relaxation session; take a walk or do some knitting "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9. Still unsure of how to begin? Benson recommends just sitting quietly for about 20 minutes and relaxing all your muscles."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</ScrollView>

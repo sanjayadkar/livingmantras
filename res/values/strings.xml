@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Living Mantra1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">Your Choice</string>
+    <string name="title_activity_student">Student</string>
+    <string name="title_activity_businessman">Businessman</string>
+    <string name="title_activity_retired_person">RetiredPerson</string>
+    <string name="title_activity_sick_person">SickPerson</string>
+    <string name="title_activity_business_man">BusinessMan</string>
+    <string name="title_activity_yoga">Yoga</string>
+    <string name="title_activity_health">Health</string>
+    <string name="title_activity_meditation">Meditation</string>
+    <string name="title_activity_relaxation">Relaxation</string>
+    <string name="title_activity_web_search">WebSearch</string>
+    <string name="title_activity_query">Query</string>
+    <string name="title_activity_yoga_businessman">YogaBusinessman</string>
+    <string name="title_activity_yoga_sick">YogaSick</string>
+    <string name="title_activity_yoga_retired">YogaRetired</string>
+    <string name="title_activity_health_businessman">HealthBusinessman</string>
+    <string name="title_activity_health_sick">HealthSick</string>
+    <string name="title_activity_health_retired">HealthRetired</string>
+    <string name="title_activity_meditation_businessman">MeditationBusinessman</string>
+    <string name="title_activity_meditation_sick">MeditationSick</string>
+    <string name="title_activity_meditation_retired">MeditationRetired</string>
+    <string name="title_activity_relaxation_businessman">RelaxationBusinessman</string>
+    <string name="title_activity_relaxation_sick">RelaxationSick</string>
+    <string name="title_activity_relaxation_retired">RelaxationRetired</string>
+    <string name="Living_Mantra">Living Mantra</string>
+
+</resources>
